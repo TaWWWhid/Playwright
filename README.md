@@ -24,7 +24,7 @@ This repository contains an end-to-end (E2E) automation testing project built us
 │   └── auth.json           # Auth state storage
 ├── playwright.config.js    # Playwright configuration
 ├── package.json            # Dependencies & scripts
-└── package-lock.json```
+└── package-lock.json ```
 
 ---
 
