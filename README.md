@@ -15,6 +15,7 @@ This repository contains an end-to-end (E2E) automation testing project built us
 
 ## 📁 Project Structure
 
+<pre>
 .
 ├── .github/workflows/
 │   └── playwright.yml      # CI/CD configuration
@@ -24,6 +25,7 @@ This repository contains an end-to-end (E2E) automation testing project built us
 ├── playwright.config.js    # Playwright configuration
 ├── package.json            # Dependencies & scripts
 └── package-lock.json
+</pre>
 
 ---
 
