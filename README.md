@@ -14,6 +14,7 @@ This repository contains an end-to-end (E2E) automation testing project built us
 ---
 
 ## 📁 Project Structure
+
 .
 ├── .github/workflows/
 │   └── playwright.yml      # CI/CD configuration
@@ -38,30 +39,30 @@ This repository contains an end-to-end (E2E) automation testing project built us
 
 ## ⚙️ Installation & Setup
 
-1️⃣ Clone the repository
-git clone [https://github.com/Tawwwhid/Playwright.git](https://github.com/Tawwwhid/Playwright.git)
+1️⃣ **Clone the repository**
+git clone https://github.com/Tawwwhid/Playwright.git
 cd Playwright
 
-2️⃣ Install dependencies
+2️⃣ **Install dependencies**
 npm install
 
-3️⃣ Install Playwright browsers
+3️⃣ **Install Playwright browsers**
 npx playwright install
 
 ---
 
 ## ▶️ Running Tests
 
-Run all tests (Headless mode):
+**Run all tests (Headless mode):**
 npx playwright test
 
-Run tests in Headed mode (Browser visible):
+**Run tests in Headed mode (Browser visible):**
 npx playwright test --headed
 
-Run a specific test file:
+**Run a specific test file:**
 npx playwright test tests/example.spec.js
 
-Generate and view HTML report:
+**Generate and view HTML report:**
 npx playwright show-report
 
 ---
@@ -70,4 +71,4 @@ npx playwright show-report
 You can customize the testing environment in playwright.config.js, including timeouts, base URLs, and browser-specific options.
 
 ---
-⭐ Give this repo a star if you find it helpful!
+⭐ *Give this repo a star if you find it helpful!*
